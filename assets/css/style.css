@@ -1,0 +1,35 @@
+h1, ol > li:nth-child(even), .special + span, a[href^="http"], b + span + span {
+    color: green;
+}
+
+span:first-child, a[title], ul > li:nth-child(odd) {
+    color: red;
+}
+
+div span + span, ul > li:nth-child(even) {
+	background-color: yellow;
+}
+
+.special, ol > li:nth-child(8) {
+	color:orange;
+}
+
+b, ul li:last-child {
+    color: purple;
+}
+
+b + span {
+    color: lightblue;
+}
+
+div:nth-last-of-type(2) {
+    color: pink;
+}
+
+ol > li:nth-child(odd) {
+    color: blue;
+}
+
+ol li:nth-child(4){
+    background: gray;
+}
